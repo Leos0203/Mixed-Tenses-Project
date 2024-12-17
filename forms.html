@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Документация</title>
+    <link rel="stylesheet" href="CSS/forms.css" />
+    <link rel="icon" type="image/x-icon" href="Resources/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="nav-logo" href="index.html">
+        <img
+          class="nav-logo-img"
+          src="Resources/logo.png"
+          alt="Logo"
+          width="500"
+          height="500"
+        />
+        <span class="nav-logo-text">Mixed Tenses in Storytelling</span>
+      </a>
+      <div class="nav-butts">
+        <a class="nav-butt" href="#">Code</a>
+        <a class="nav-butt" href="download.html">Download</a>
+        <a class="nav-butt" href="contact.html">Contact Us</a>
+      </div>
+    </nav>
+
+    <main class="main">
+      <h1 class="title">Code Explanation</h1>
+      <section class="form">
+        <h2 class="form-title">First Form - Landing Form</h2>
+        <img
+          src="Resources/code1.png"
+          alt="Picture of the project"
+          class="form-img"
+        />
+        <p class="form-text">
+          The code here is very simple. If you click the Log In button the Log
+          In Form opens, same thing for the Registration Form.
+        </p>
+      </section>
+      <section class="form">
+        <h2 class="form-title">Second Form - Log In Form</h2>
+        <img
+          src="Resources/code2.png"
+          alt="Picture of the project"
+          class="form-img"
+        />
+        <p class="form-text">
+          The code here does two things. First, if you click the Register button
+          the Registration Form appears. If you click log in a few checks have
+          to be completed for the Log In to be successful. First, we check if a
+          file exists, if it doesn't then a registration doesn't exist and has
+          to be made first. If it does then we open the file "login.txt" and get
+          the credentials. If they are the same as the ones entered in the
+          fields then a message will appear and when you click ok the
+          Information Form appears.
+        </p>
+      </section>
+      <section class="form">
+        <h2 class="form-title">Third Form - Register Form</h2>
+        <img
+          src="Resources/code3.png"
+          alt="Picture of the project"
+          class="form-img"
+        />
+        <p class="form-text">
+          The code here makes the registration. When you write valid username
+          and passwords the code uses System.IO to write into a file and save
+          them for later use.
+        </p>
+      </section>
+      <section class="form">
+        <h2 class="form-title">Fourth Form - Information Form</h2>
+        <img
+          src="Resources/code4.1.png"
+          alt="Picture of the project"
+          class="form-img"
+        />
+        <img
+          src="Resources/code4.2.png"
+          alt="Picture of the project"
+          class="form-img"
+        />
+        <p class="form-text">
+          In this form we first make all buttons, lists and labels invisible
+          until the right option is chosen. When "Mixed Tenses in Storytelling"
+          is selected everything appears and you can read about the tense. There
+          are 4 separate list boxes which are switched when next is clicked.
+          When one is shown the others are hidden. The sample story and test
+          buttons open the coresponding forms.
+        </p>
+      </section>
+      <section class="form">
+        <h2 class="form-title">Fifth Form - Test Form</h2>
+        <img
+          src="Resources/code5.1.png"
+          alt="Picture of the project"
+          class="form-img"
+          id="test-code"
+        />
+        <img
+          src="Resources/code5.2.png"
+          alt="Picture of the project"
+          class="form-img"
+        />
+        <p class="form-text">
+          The test consists of 4 group boxes and all of them except the first
+          one are hidden on launch. The test is made of 4 radio buttons with 4
+          answers only one correct. When the button check is clicked an
+          explanation is shown in label2, the correct answer's radio button's
+          back color is set to lime and a point is given if the answer is
+          correct. The points are also displayed at the top. If the next or
+          previous buttons are clicked the question is changed to the next or
+          previous one and the explanation label, radio buttons' back colors are
+          cleared and the new group box is shown.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

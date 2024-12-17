@@ -1,0 +1,164 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  background-image: linear-gradient(to left, #313131, #1b1b1b);
+  height: 15vh;
+  width: 100%;
+  align-items: center;
+  border: 0.15rem solid black;
+}
+
+.nav-butts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-butt {
+  display: flex;
+  height: 60%;
+  margin: 0 10px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  background-color: rgb(216, 214, 214);
+  border: black solid 0.15rem;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-butt:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.nav-logo {
+  display: flex;
+  height: 70%;
+  width: 30%;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo-img {
+  display: flex;
+  width: 25%;
+  margin-right: 35px;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.nav-logo:hover .nav-logo-img {
+  transform: rotate(360deg);
+  transition: 0.3s ease;
+}
+
+.nav-logo:hover .nav-logo-text {
+  font-size: 2.2rem;
+  transition: 0.3s ease;
+}
+
+.nav-logo-text {
+  display: flex;
+  color: #ffffff;
+  -webkit-text-stroke: 0.2px black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  background-image: linear-gradient(
+    to right,
+    rgb(209, 209, 209),
+    rgb(165, 165, 165)
+  );
+  padding: 20px 0;
+  border: none;
+  border-radius: 20px;
+  border: 0.01rem solid black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.form-title {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.form-label {
+  display: flex;
+  color: black;
+  font-size: 2rem;
+  margin: 5px 0;
+}
+
+.form-input {
+  display: flex;
+  margin: 5px 0;
+  width: 85%;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 0.1rem black solid;
+  padding-left: 4px;
+}
+
+.form-textarea {
+  display: flex;
+  margin: 5px 0;
+  width: 85%;
+  height: 100px;
+  padding-left: 4px;
+  border-radius: 5px;
+  border: 0.1rem black solid;
+}
+
+.form-button {
+  display: flex;
+  margin: 5px 0;
+  background-color: rgb(218, 218, 218);
+  border: black solid 0.01rem;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  width: 40%;
+  height: 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: rgb(230, 230, 230);
+}
